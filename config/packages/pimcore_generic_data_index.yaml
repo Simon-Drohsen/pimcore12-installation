@@ -1,0 +1,4 @@
+pimcore_generic_data_index:
+    index_service:
+        client_params:
+            index_prefix: default

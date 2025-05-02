@@ -1,0 +1,7 @@
+pimcore_open_search_client:
+    clients:
+        default:
+            hosts: [ "https://opensearch.pimcore12-installation.orb.local:9200" ]
+            username: "%env(OPENSEARCH_USERNAME)%"
+            password: "%env(OPENSEARCH_PASSWORD)%"
+            ssl_verification: false

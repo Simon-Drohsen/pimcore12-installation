@@ -1,0 +1,5 @@
+pimcore_studio_backend:
+    mercure_settings:
+        jwt_key: '%env(JWT_KEY)%'
+        hub_url_client: '%env(HUB_URL_CLIENT)%'
+        hub_url_server: '%env(HUB_URL_SERVER)%'

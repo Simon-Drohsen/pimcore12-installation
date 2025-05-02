@@ -9,6 +9,7 @@
 /public/bundles/
 
 # local config
+/cache
 /.env.local
 /.env.local.php
 /.env.*.local
