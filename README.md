@@ -43,12 +43,7 @@ You don't need to have a PHP environment with composer installed.
     * This can take a while, up to 20 minutes
     * If you select to install the SimpleBackendSearchBundle please make sure to add the `pimcore_search_backend_message` to your `.docker/supervisord.conf` file inside value for 'command' like `pimcore_maintenance` already is.
 
-5. Run codeception tests:
-   * `docker compose run --user=root --rm test-php chown -R $(id -u):$(id -g) var/ public/var/`
-   * `docker compose run --rm test-php vendor/bin/pimcore-install -n`
-   * `docker compose run --rm test-php vendor/bin/codecept run -vv`
-
-6. :heavy_check_mark: DONE - You can now visit your pimcore instance:
+5. ✔: DONE - You can now visit your pimcore instance:
     * The frontend: <http://localhost>
     * The admin interface, using the credentials you have chosen above:
       <http://localhost/admin>
